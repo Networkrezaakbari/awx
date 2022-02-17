@@ -1,6 +1,8 @@
 - name:  Change hostname
   hosts: all
   gather_facts: false
+  collection:
+    - ansible.windows
   tasks:
        
     - name: Change the hostname to sample-hostname
