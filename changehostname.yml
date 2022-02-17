@@ -1,7 +1,7 @@
 - name:  Change hostname
   hosts: all
   gather_facts: false
-  collection:
+  collections:
     - ansible.windows
   tasks:
        
